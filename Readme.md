@@ -1,9 +1,9 @@
-# React Native Sliding Counter
+# React Native swipe-shop-button
 
 <!-- ## Introduction -->
 
 <div>
-<h3> A demo <h1>
+<h3> A demo <h3>
  </br>
 
 ![](https://github.com/isogand/swipe-shop-button/blob/master/public/image/demo.gif)</div>
@@ -30,28 +30,34 @@ npm install @isogand/swipe-shop-button
 ## Usage
 
  ```tsx
-  import React,  from 'react';
-  import { View,StyleSheet, Text } from 'react-native';
-  import { GestureHandlerRootView} from 'react-native-gesture-handler';
-  import SlidingCounter from '@isogand/swipe-shop-button';
-  
-  
-  export default function App() {
-      return (
-        <GestureHandlerRootView style={{flex:1}}>
-          <View style={styles.container}>
-            <SlidingCounter / >
-          </View>
-        </GestureHandlerRootView>
-      );
-  }
- const styles = StyleSheet.create({
-   container: {
-        flex: 1,
-        backgroundColor: '#656565',
+import React  from "react";
+import {StyleSheet, View} from "react-native";
+import SwipeButton from "@isogand/swipe-shop-button"
+
+const App = () => {
+
+    return (
+
+        <View style={styles.switchContainer}>
+            <SwipeButton
+                backgroundColor="#FFC701FF"
+                onChange={console.log}
+                labelContainer={console.log}
+                value
+            />
+        </View>
+
+    );
+};
+export default App;
+
+const styles = StyleSheet.create({
+    switchContainer: {
         alignItems: 'center',
+        flex: 1,
         justifyContent: 'center',
-  },
+        backgroundColor: '#171616',
+    },
 });
  ```
 
