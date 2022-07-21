@@ -1,6 +1,6 @@
 {
   "name": "@isogand/swipe-shop-button",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Sliding Counter is a ...",
   "main": "lib/swipe-shop-button.es.js",
   "module": "lib/swipe-shop-button.es.js",
