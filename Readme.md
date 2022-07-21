@@ -4,7 +4,7 @@
 
 <div>
 <h3> A demo <h3>
- </br>
+
 
 ![](https://github.com/isogand/swipe-shop-button/blob/master/public/image/demo.gif)</div>
 
