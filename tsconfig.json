@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "jsx" : "react-native",
+        "target": "es5",
+        "module": "es6",
+        "declaration": true,
+        "outDir": "./lib",
+        "strict": true,
+        "baseUrl": "./src",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "lib": ["ES6"],
+        "importHelpers": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "**/__tests__/*"]
+}
